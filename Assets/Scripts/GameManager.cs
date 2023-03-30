@@ -18,16 +18,20 @@ public class GameManager : MonoBehaviour
 
 	public int currentScore;
 	public int scorePerNote = 100;
+	public int scorePerGoodNote = 125;
+	public int scorePerPerfectNote = 150;
 
 
-	public TextMeshPro scoreText;
-	public TextMeshPro multiText;
+	public Text scoreText;
+	public Text multiText;
 	
     
     // Start is called before the first frame update
     void Start()
     {
-        instance = this; 
+        instance = this;
+
+		scoreText.text = " ";
     }
 
     // Update is called once per frame
@@ -50,9 +54,27 @@ public class GameManager : MonoBehaviour
 	{
 		Debug.Log("Hit On Time");
 
-		currentScore += scorePerNote;
-		scoreText.text = "Score: " + currentScore;
+		//currentScore += scorePerNote;
+		scoreText.text = " " + currentScore;
 	}
+
+	public void NormalHit()
+    {
+		currentScore += scorePerNote;
+		NoteHit();
+    }
+
+	public void GoodHit()
+    {
+		currentScore += scorePerGoodNote;
+		NoteHit();
+    }
+
+	public void PerfectHit()
+    {
+		currentScore += scorePerPerfectNote;
+		NoteHit();
+    }
 
 	public void NoteMissed()
 	{
