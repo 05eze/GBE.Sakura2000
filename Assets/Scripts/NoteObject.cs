@@ -9,6 +9,8 @@ public class NoteObject : MonoBehaviour
 
     public KeyCode keyToPress;
 
+    public GameObject okEffect, goodEffect, perfectEffect, missEffect;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,17 +27,24 @@ public class NoteObject : MonoBehaviour
             {
                 gameObject.SetActive(false);
 
-                //GameManager.instance.NoteHit();
+                GameManager.instance.NoteHit();
 
                 if (Mathf.Abs(transform.position.x) < 6.58f)
                 {
                     GameManager.instance.NormalHit();
+                    Instantiate(okEffect, transform.position, okEffect.transform.rotation);
+
+                    //Instantiate means to bring in an object. 
+                    //using the same rotation as prefab, so write ___Effect.transform.rotation
+
                 } else if(Mathf.Abs(transform.position.x) < 6.75f)
                 {
                     GameManager.instance.GoodHit();
+                    Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
                 } else
                 {
                     GameManager.instance.PerfectHit();
+                    Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
                 }
 
             }
@@ -47,17 +56,19 @@ public class NoteObject : MonoBehaviour
         if(other.tag == "Activator")
         {
             canBePressed = true;
+
         }
     }
 
 
-    private void OnTriggerExit2D(Collider2D other) 
+    private void OnTriggerExit2D(Collider2D collision) 
     {
-        if(other.tag == "Activator")
+        if (collision.tag == "Activator" && gameObject.activeSelf)
         {
             canBePressed = false;
 
             GameManager.instance.NoteMissed();
+            Instantiate(missEffect, transform.position, missEffect.transform.rotation);
         }
     }
 }
