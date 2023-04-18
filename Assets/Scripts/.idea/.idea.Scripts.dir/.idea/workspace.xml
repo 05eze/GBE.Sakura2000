@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7015047-e59b-4d28-957e-a0db3959c3d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Scenes/Defend The Crown.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Defend The Crown.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeatScroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BeatScroller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoteObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NoteObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +30,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="1713">
+              <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HealthSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
-                <element signature="e#0#125#0" expanded="true" />
+                <element signature="e#0#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,18 +55,12 @@
         <entry file="file://$PROJECT_DIR$/NoteObject.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
-              <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+              <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
-                <marker date="1680000431114" expanded="true" signature="119:922" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="256:277" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="335:559" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="382:553" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="421:543" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="613:715" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="656:709" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="769:920" ph="{...}" />
-                <marker date="1680000431114" expanded="true" signature="812:914" ph="{...}" />
+                <marker date="1681812644302" expanded="true" signature="119:1954" ph="{...}" />
+                <marker date="1681812644302" expanded="true" signature="1934:1946" ph="{...}" />
+                <marker date="1681812644302" expanded="true" signature="1934:1952" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,6 +89,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/HealthSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BeatScroller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NoteObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ButtonController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -154,12 +154,13 @@
       <workItem from="1679912959492" duration="223000" />
       <workItem from="1679999218848" duration="1770000" />
       <workItem from="1680001029481" duration="1722000" />
-      <workItem from="1680003037539" duration="504000" />
+      <workItem from="1680003037539" duration="831000" />
+      <workItem from="1681814567664" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3996000" />
+    <option name="totallyTimeSpent" value="5510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -174,7 +175,7 @@
     <frame x="1912" y="-8" width="976" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26637554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27183408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,18 +242,12 @@
     <entry file="file://$PROJECT_DIR$/NoteObject.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
-            <marker date="1680000431114" expanded="true" signature="119:922" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="256:277" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="335:559" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="382:553" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="421:543" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="613:715" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="656:709" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="769:920" ph="{...}" />
-            <marker date="1680000431114" expanded="true" signature="812:914" ph="{...}" />
+            <marker date="1681812644302" expanded="true" signature="119:1954" ph="{...}" />
+            <marker date="1681812644302" expanded="true" signature="1934:1946" ph="{...}" />
+            <marker date="1681812644302" expanded="true" signature="1934:1952" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -274,10 +269,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="1713">
+          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
-            <element signature="e#0#125#0" expanded="true" />
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
