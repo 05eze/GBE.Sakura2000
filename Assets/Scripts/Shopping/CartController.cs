@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CartController : MonoBehaviour
 {
-    public float maxSpeed = 3.0f;
+    public float maxSpeed;
     Rigidbody2D cartCnt;
 
     // Start is called before the first frame update
