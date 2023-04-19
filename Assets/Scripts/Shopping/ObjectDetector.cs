@@ -11,6 +11,7 @@ public class ObjectDetector : MonoBehaviour
     public GameObject gameObject;
 
 
+    //Deleting items through collision
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.name == "Shopping Cart")
@@ -29,6 +30,7 @@ public class ObjectDetector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Falling item
         transform.position -= transform.up * Time.deltaTime * 5;
     }
 }
