@@ -1636,7 +1636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1379637654
 Transform:
   m_ObjectHideFlags: 0
@@ -2521,11 +2521,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObject: {fileID: 2018426537}
-  heartOne: {fileID: 0}
-  heartTwo: {fileID: 0}
-  heartThree: {fileID: 0}
-  heartFour: {fileID: 0}
-  heartFive: {fileID: 0}
+  heartOne: {fileID: 244388351}
+  heartTwo: {fileID: 1193328685}
+  heartThree: {fileID: 1737944530}
+  heartFour: {fileID: 1211254363}
+  crackOne: {fileID: 0}
+  crackTwo: {fileID: 0}
+  crackThree: {fileID: 0}
+  crackFour: {fileID: 0}
 --- !u!1 &2014275902
 GameObject:
   m_ObjectHideFlags: 0
