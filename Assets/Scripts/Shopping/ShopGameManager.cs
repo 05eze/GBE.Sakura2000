@@ -25,10 +25,12 @@ public class ShopGameManager : MonoBehaviour
 
 
 
+
     // Start is called before the first frame update
     void Start()
     {
-        heal
+        health = 4;
+        heartOne
     }
 
     // Update is called once per frame
