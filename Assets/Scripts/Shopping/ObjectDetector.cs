@@ -41,7 +41,16 @@ public class ObjectDetector : MonoBehaviour
 
             heartOne.SetActive(false);
             crackOne.SetActive(true);
+
         }
+        /* (crackOne.activeInHierarchy && !heartOne.activeInHierarchy)
+        {
+            if (collision.gameObject.name == "Wrong Item Detect ")
+            {
+                heartTwo.SetActive(false);
+                crackTwo.SetActive(true);
+            }
+        }*/
     }
     // Start is called before the first frame update
     void Start()

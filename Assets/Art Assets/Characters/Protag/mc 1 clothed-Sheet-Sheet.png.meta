@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 995b94584344b9c4089ab10ab737986e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -272550767673120428
+    second: mc 1 clothed-Sheet-Sheet_0
+  - first:
+      213: -7630166050842502344
+    second: mc 1 clothed-Sheet-Sheet_1
+  - first:
+      213: -5348585493811745515
+    second: mc 1 clothed-Sheet-Sheet_2
+  - first:
+      213: -8406614141596378592
+    second: mc 1 clothed-Sheet-Sheet_3
+  - first:
+      213: 3128928286017961596
+    second: mc 1 clothed-Sheet-Sheet_4
+  - first:
+      213: 1854387450761269725
+    second: mc 1 clothed-Sheet-Sheet_5
+  - first:
+      213: 4123796243456985103
+    second: mc 1 clothed-Sheet-Sheet_6
+  - first:
+      213: 5855615531980436329
+    second: mc 1 clothed-Sheet-Sheet_7
+  - first:
+      213: -8676566000882810043
+    second: mc 1 clothed-Sheet-Sheet_8
+  - first:
+      213: 500969109273472577
+    second: mc 1 clothed-Sheet-Sheet_9
+  - first:
+      213: 2516657902673586173
+    second: mc 1 clothed-Sheet-Sheet_10
+  - first:
+      213: -2422489166695618653
+    second: mc 1 clothed-Sheet-Sheet_11
+  - first:
+      213: 1170527081541093366
+    second: mc 1 clothed-Sheet-Sheet_12
+  - first:
+      213: 6605234793000779889
+    second: mc 1 clothed-Sheet-Sheet_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 9
+        width: 147
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45965955584b73cf0800000000000000
+      internalID: -272550767673120428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 9
+        width: 147
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b994237643c1690800000000000000
+      internalID: -7630166050842502344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 9
+        width: 144
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d2b86d4d106c5b0800000000000000
+      internalID: -5348585493811745515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 9
+        width: 147
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a5f567af4b55b80800000000000000
+      internalID: -8406614141596378592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 9
+        width: 148
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eb5c7c2bf2c6b20800000000000000
+      internalID: 3128928286017961596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 9
+        width: 147
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1519ebf8b1cb910800000000000000
+      internalID: 1854387450761269725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 9
+        width: 144
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f080859a5daaa3930800000000000000
+      internalID: 4123796243456985103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 9
+        width: 147
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96334fc4d43534150800000000000000
+      internalID: 5855615531980436329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 9
+        width: 147
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543062f4135a69780800000000000000
+      internalID: -8676566000882810043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 9
+        width: 144
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e60b920ccc3f600800000000000000
+      internalID: 500969109273472577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 9
+        width: 147
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7e9065707fce220800000000000000
+      internalID: 2516657902673586173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5445
+        y: 9
+        width: 148
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a720e210f6916ed0800000000000000
+      internalID: -2422489166695618653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5925
+        y: 9
+        width: 147
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f74b3fcd2c8e3010800000000000000
+      internalID: 1170527081541093366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mc 1 clothed-Sheet-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 6407
+        y: 9
+        width: 144
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170ccd65c028aab50800000000000000
+      internalID: 6605234793000779889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
