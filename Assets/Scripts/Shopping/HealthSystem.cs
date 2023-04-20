@@ -24,7 +24,10 @@ public class HealthSystem : MonoBehaviour
         {
             Destroy(gameObject);
             //SetActive == false one of the hearts after(then adtewr make sure last heart becomes trig for you lose screen)
-        }
+            //SetActive.heartOne == false;
+            //SetActive.crackOne == true;
+        }//else
+        //if(collider.tag == "")
     }
     // Start is called before the first frame update
     void Start()
