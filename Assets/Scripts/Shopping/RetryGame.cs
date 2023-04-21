@@ -14,6 +14,11 @@ public void RestartLevel()
     SceneManager.LoadScene("STYD2");
 }
 
+public void QuitGameToMM()
+{
+    Time.timeScale = 1;
+    SceneManager.LoadScene("");
+}
 
     // Start is called before the first frame update
     void Start()
