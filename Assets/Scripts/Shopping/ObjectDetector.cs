@@ -39,8 +39,9 @@ public class ObjectDetector : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Live Lost");
 
-            heartOne.SetActive(false);
-            crackOne.SetActive(true);
+            ShopGameManager.health -= 1;
+            //heartOne.SetActive(false);
+           // crackOne.SetActive(true);
 
         }
         /* (crackOne.activeInHierarchy && !heartOne.activeInHierarchy)

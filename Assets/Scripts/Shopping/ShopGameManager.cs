@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShopGameManager : MonoBehaviour
 {
 
+    public GameObject heart0;
     //Live Hearts
     public GameObject heartOne;
     public GameObject heartTwo;
@@ -29,13 +30,59 @@ public class ShopGameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 4;
-        heartOne
+        health = 5;
+        //heartOne
+        heart0.gameObject.SetActive(true);
+        heartOne.gameObject.SetActive(true);
+        heartTwo.gameObject.SetActive(true);
+        heartThree.gameObject.SetActive(true);
+        heartFour.gameObject.SetActive(true);
+        gameOver.gameObject.SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        switch(health)
+        {
+            case 5:
+                heart0.gameObject.SetActive(true);
+                heartOne.gameObject.SetActive(true);
+                heartTwo.gameObject.SetActive(true);
+                heartThree.gameObject.SetActive(true);
+                heartFour.gameObject.SetActive(true);
+                break;
+            case 4:
+                heart0.gameObject.SetActive(true);
+                heartOne.gameObject.SetActive(true);
+                heartTwo.gameObject.SetActive(true);
+                heartThree.gameObject.SetActive(true);
+                heartFour.gameObject.SetActive(false);
+                break;
+            case 3:
+                heart0.gameObject.SetActive(true);
+                heartOne.gameObject.SetActive(true);
+                heartTwo.gameObject.SetActive(true);
+                heartThree.gameObject.SetActive(false);
+                heartFour.gameObject.SetActive(false);
+                break;
+            case 2:
+                heart0.gameObject.SetActive(true);
+                heartOne.gameObject.SetActive(true);
+                heartTwo.gameObject.SetActive(false);
+                heartThree.gameObject.SetActive(false);
+                heartFour.gameObject.SetActive(false);
+                break;
+            default:
+                heart0.gameObject.SetActive(false);
+                heartOne.gameObject.SetActive(false);
+                heartTwo.gameObject.SetActive(false);
+                heartThree.gameObject.SetActive(false);
+                heartFour.gameObject.SetActive(false);
+                gameOver.gameObject.SetActive(true);
+                Time.timeScale = 0;
+                break;
+        }
     }
 }
