@@ -48,67 +48,72 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!startPlaying)
-		{
-			if(Input.anyKeyDown)
-			{
-				startPlaying = true; 
-				theBS.hasStarted = true;
-
-				theMusic.Play();
-			}
-		}else
+        if (!PauseManager.isPaused)
         {
-			if(!theMusic.isPlaying && !resultsScreen.activeInHierarchy)
-            {
-				resultsScreen.SetActive(true);
 
-				//Showing updated values on screen - strings are text
-				oksText.text = "" + normalHits;
-				goodsText.text = goodHits.ToString();
-				perfectsText.text = perfectHits.ToString();
-				missesText.text = missedHits.ToString();
+        
+				if(!startPlaying)
+				{
+					if(Input.anyKeyDown)
+					{
+						startPlaying = true; 
+						theBS.hasStarted = true;
 
-				//Working out percentage of hits
+						theMusic.Play();
+					}
+				}else
+				{
+					if(!theMusic.isPlaying && !resultsScreen.activeInHierarchy)
+					{
+						resultsScreen.SetActive(true);
 
-				float totalHit = normalHits + goodHits + perfectHits;
-				float percentHit = (totalHit / totalNotes) * 100f;
+						//Showing updated values on screen - strings are text
+						oksText.text = "" + normalHits;
+						goodsText.text = goodHits.ToString();
+						perfectsText.text = perfectHits.ToString();
+						missesText.text = missedHits.ToString();
 
-				percentHitText.text = percentHit.ToString("F1") + "%";
-				//F1 is a shortcut in unity that which tells program to show this as a float value with 1 decimal place. 
+						//Working out percentage of hits
 
-				string rankVal = "F";
+						float totalHit = normalHits + goodHits + perfectHits;
+						float percentHit = (totalHit / totalNotes) * 100f;
 
-				if(percentHit > 40)
-                {
-					rankVal = "D";
-					if(percentHit > 55)
-                    {
-						rankVal = "C";
-						if(percentHit > 70)
+						percentHitText.text = percentHit.ToString("F1") + "%";
+						//F1 is a shortcut in unity that which tells program to show this as a float value with 1 decimal place. 
+
+						string rankVal = "F";
+
+						if(percentHit > 40)
 						{
-							rankVal = "B";
-							if(percentHit > 85)
-                            {
-								rankVal = "A";
-								if (percentHit > 95)
-                                {
-									rankVal = "S";
-									if (percentHit >98.5)
-                                    {
-										rankVal = "SS";
-                                    }
-                                }
-                            }
+							rankVal = "D";
+							if(percentHit > 55)
+							{
+								rankVal = "C";
+								if(percentHit > 70)
+								{
+									rankVal = "B";
+									if(percentHit > 85)
+									{
+										rankVal = "A";
+										if (percentHit > 95)
+										{
+											rankVal = "S";
+											if (percentHit >98.5)
+											{
+												rankVal = "SS";
+											}
+										}
+									}
+								}
+							}
 						}
-                    }
-                }
 
-				rankText.text = rankVal;
+						rankText.text = rankVal;
 
-				finalScoreText.text = currentScore.ToString();
-            }
-        }
+						finalScoreText.text = currentScore.ToString();
+					}
+			    }
+		}
     }
 
 	public void NoteHit()

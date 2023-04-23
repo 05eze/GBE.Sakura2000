@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ShopGameManager : MonoBehaviour
 {
+    //public UnityEvent Destroyed;
+
 
     public GameObject heart0;
     //Live Hearts
@@ -24,7 +26,11 @@ public class ShopGameManager : MonoBehaviour
     //Live Count
     public static int health;
 
+    //Total Items
+    public GameObject totalItems;
 
+    //Results
+    public GameObject results;
 
 
     // Start is called before the first frame update
@@ -84,5 +90,17 @@ public class ShopGameManager : MonoBehaviour
                 Time.timeScale = 0;
                 break;
         }
+
+       //In Prog
+          /*  if (Destroy(totalItems))
+            {
+            Debug.Log("Win Game");
+                results.gameObject.SetActive(true);
+            }*/
+        
+
+
+
+        
     }
 }
