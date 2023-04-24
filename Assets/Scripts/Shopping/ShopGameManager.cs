@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShopGameManager : MonoBehaviour
 {
@@ -103,6 +104,8 @@ public class ShopGameManager : MonoBehaviour
         }
 
        //In Prog
+
+       
            
         
 
@@ -110,4 +113,8 @@ public class ShopGameManager : MonoBehaviour
 
         
     }
+    public void ContinueGame()
+       {
+           SceneManager.LoadScene("MAZE4");
+       }
 }
