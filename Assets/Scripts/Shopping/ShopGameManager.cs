@@ -27,11 +27,19 @@ public class ShopGameManager : MonoBehaviour
     public static int health;
 
     //Total Items
-    public GameObject totalItems;
+    public GameObject finalItem;
 
     //Results
     public GameObject results;
 
+	public bool isDestroyed;
+	
+		/* if (Object.Destroy(this.finalItem))
+    	 {
+     		Debug.Log("Win Game");
+    	 	results.gameObject.SetActive(true);
+    	 }*/
+	
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +52,9 @@ public class ShopGameManager : MonoBehaviour
         heartThree.gameObject.SetActive(true);
         heartFour.gameObject.SetActive(true);
         gameOver.gameObject.SetActive(false);
+
+
+		results.gameObject.SetActive(false);
 
     }
 
@@ -92,11 +103,7 @@ public class ShopGameManager : MonoBehaviour
         }
 
        //In Prog
-          /*  if (Destroy(totalItems))
-            {
-            Debug.Log("Win Game");
-                results.gameObject.SetActive(true);
-            }*/
+           
         
 
 

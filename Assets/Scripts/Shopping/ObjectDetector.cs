@@ -24,6 +24,7 @@ public class ObjectDetector : MonoBehaviour
     public GameObject crackThree;
     public GameObject crackFour;
 
+    public GameObject finalItem;
 
     //Deleting items through collision
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,6 +32,9 @@ public class ObjectDetector : MonoBehaviour
         if(collision.gameObject.name == "Shopping Cart")
         {
             Destroy(gameObject);
+            //In prog
+            Destroy(finalItem);
+            //Add set active 
             Debug.Log("Item Caught");
 
         } else
@@ -44,6 +48,8 @@ public class ObjectDetector : MonoBehaviour
            // crackOne.SetActive(true);
 
         }
+        
+        
         /* (crackOne.activeInHierarchy && !heartOne.activeInHierarchy)
         {
             if (collision.gameObject.name == "Wrong Item Detect ")
