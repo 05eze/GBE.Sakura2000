@@ -8,7 +8,19 @@ public class MazeCharController : MonoBehaviour
     public Rigidbody2D rb2d;
     public float moveSpeed;
     public Vector2 moveInput;
+    public GameObject gameOver;
 
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        
+        if (collider.tag == "Glitch")
+        {
+            Time.timeScale = 0f;
+            gameOver.gameObject.SetActive(true);
+        }
+        
+
+    }
     // Start is called before the first frame update
     void Start()
     {
