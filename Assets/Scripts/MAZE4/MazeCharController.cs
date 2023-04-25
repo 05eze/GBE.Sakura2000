@@ -10,13 +10,22 @@ public class MazeCharController : MonoBehaviour
     public Vector2 moveInput;
     public GameObject gameOver;
 
+    
+    public GameObject results;
     void OnTriggerEnter2D(Collider2D collider)
     {
-        
         if (collider.tag == "Glitch")
         {
             Time.timeScale = 0f;
             gameOver.gameObject.SetActive(true);
+        }
+        else
+        {
+            if (collider.tag == "WinTrig")
+            {
+                Time.timeScale = 0f;
+                results.gameObject.SetActive(true);
+            }
         }
         
 

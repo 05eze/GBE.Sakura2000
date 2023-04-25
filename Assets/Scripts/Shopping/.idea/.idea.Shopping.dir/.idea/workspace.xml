@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cb7ef21-3c04-460e-8c33-c711c08fc1ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Scenes/DTC 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/DTC 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/DTC 2VER.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/DTC 2VER.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/MAZE4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MAZE4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/SCENE 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/SCENE 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/STYD2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/STYD2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShopGameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="8cb7ef21-3c04-460e-8c33-c711c08fc1ef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +36,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ObjectDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="576">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
-                <marker date="1682333124431" expanded="true" signature="6:78" ph="..." />
-                <marker date="1682333124431" expanded="true" signature="123:1682" ph="{...}" />
-                <marker date="1682333124431" expanded="true" signature="232:286" ph="/* public void SetActive(bool true); ... */" />
-                <marker date="1682333124431" expanded="true" signature="667:1431" ph="{...}" />
-                <marker date="1682333124431" expanded="true" signature="730:854" ph="{...}" />
-                <marker date="1682333124431" expanded="true" signature="921:1134" ph="{...}" />
-                <marker date="1682333124431" expanded="true" signature="1055:1123" ph="/* heartOne.SetActive(false); ... */" />
-                <marker date="1682333124431" expanded="true" signature="1161:1425" ph="/* (crackOne.activeInHierarchy &amp;&amp; !heartOne.activeInHierarchy) ... */" />
-                <marker date="1682333124431" expanded="true" signature="1501:1522" ph="{...}" />
-                <marker date="1682333124431" expanded="true" signature="1580:1680" ph="{...}" />
+                <marker date="1682333175390" expanded="true" signature="6:78" ph="..." />
+                <marker date="1682333175390" expanded="true" signature="123:1767" ph="{...}" />
+                <marker date="1682333175390" expanded="true" signature="232:286" ph="/* public void SetActive(bool true); ... */" />
+                <marker date="1682333175390" expanded="true" signature="700:1516" ph="{...}" />
+                <marker date="1682333175390" expanded="true" signature="763:939" ph="{...}" />
+                <marker date="1682333175390" expanded="true" signature="1006:1219" ph="{...}" />
+                <marker date="1682333175390" expanded="true" signature="1140:1208" ph="/* heartOne.SetActive(false); ... */" />
+                <marker date="1682333175390" expanded="true" signature="1246:1510" ph="/* (crackOne.activeInHierarchy &amp;&amp; !heartOne.activeInHierarchy) ... */" />
+                <marker date="1682333175390" expanded="true" signature="1586:1607" ph="{...}" />
+                <marker date="1682333175390" expanded="true" signature="1665:1765" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -127,12 +118,12 @@
       <option name="presentableId" value="Default" />
       <updated>1682328767102</updated>
       <workItem from="1682328778146" duration="1057000" />
-      <workItem from="1682332281002" duration="837000" />
+      <workItem from="1682332281002" duration="953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1894000" />
+    <option name="totallyTimeSpent" value="2010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -145,7 +136,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="976" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2554585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -208,19 +198,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ObjectDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="576">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
-            <marker date="1682333124431" expanded="true" signature="6:78" ph="..." />
-            <marker date="1682333124431" expanded="true" signature="123:1682" ph="{...}" />
-            <marker date="1682333124431" expanded="true" signature="232:286" ph="/* public void SetActive(bool true); ... */" />
-            <marker date="1682333124431" expanded="true" signature="667:1431" ph="{...}" />
-            <marker date="1682333124431" expanded="true" signature="730:854" ph="{...}" />
-            <marker date="1682333124431" expanded="true" signature="921:1134" ph="{...}" />
-            <marker date="1682333124431" expanded="true" signature="1055:1123" ph="/* heartOne.SetActive(false); ... */" />
-            <marker date="1682333124431" expanded="true" signature="1161:1425" ph="/* (crackOne.activeInHierarchy &amp;&amp; !heartOne.activeInHierarchy) ... */" />
-            <marker date="1682333124431" expanded="true" signature="1501:1522" ph="{...}" />
-            <marker date="1682333124431" expanded="true" signature="1580:1680" ph="{...}" />
+            <marker date="1682333175390" expanded="true" signature="6:78" ph="..." />
+            <marker date="1682333175390" expanded="true" signature="123:1767" ph="{...}" />
+            <marker date="1682333175390" expanded="true" signature="232:286" ph="/* public void SetActive(bool true); ... */" />
+            <marker date="1682333175390" expanded="true" signature="700:1516" ph="{...}" />
+            <marker date="1682333175390" expanded="true" signature="763:939" ph="{...}" />
+            <marker date="1682333175390" expanded="true" signature="1006:1219" ph="{...}" />
+            <marker date="1682333175390" expanded="true" signature="1140:1208" ph="/* heartOne.SetActive(false); ... */" />
+            <marker date="1682333175390" expanded="true" signature="1246:1510" ph="/* (crackOne.activeInHierarchy &amp;&amp; !heartOne.activeInHierarchy) ... */" />
+            <marker date="1682333175390" expanded="true" signature="1586:1607" ph="{...}" />
+            <marker date="1682333175390" expanded="true" signature="1665:1765" ph="{...}" />
           </folding>
         </state>
       </provider>
