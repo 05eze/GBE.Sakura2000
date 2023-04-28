@@ -431,7 +431,7 @@ RectTransform:
   m_LocalScale: {x: 0.637105, y: 0.637105, z: 0.637105}
   m_Children: []
   m_Father: {fileID: 1102934155}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -797,10 +797,7 @@ MonoBehaviour:
     sentences:
     - "Hey!\t"
     - "This is working\t"
-    - Test TestTest TestTest TestTest TestTest TestTest TestTest TestTest TestTest
-      TestTest TestTest TestTest TestTest TestTest TestTest TestTest TestTest TestTest
-      TestTest TestTest TestTest TestTest TestTest TestTest TestTest TestTest TestTest
-      TestTest TestTest TestTest TestTest TestTest TestTest Test
+    - I am running a test and I'm working fine
 --- !u!61 &138353415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2050,7 +2047,7 @@ RectTransform:
   m_LocalScale: {x: 0.637105, y: 0.637105, z: 0.637105}
   m_Children: []
   m_Father: {fileID: 1102934155}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -2804,7 +2801,7 @@ RectTransform:
   m_Children:
   - {fileID: 2116567991}
   m_Father: {fileID: 1102934155}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -3096,15 +3093,15 @@ RectTransform:
   m_GameObject: {fileID: 937090060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.63589805, y: 0.63589805, z: 0.63589805}
   m_Children: []
-  m_Father: {fileID: 1733324851}
+  m_Father: {fileID: 1102934155}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 320, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &937090062
 MonoBehaviour:
@@ -3172,6 +3169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 572200101}
   dialogueText: {fileID: 1753020713}
+  animator: {fileID: 1102934158}
+  continueButton: {fileID: 890511547}
 --- !u!4 &953269943
 Transform:
   m_ObjectHideFlags: 0
@@ -3216,7 +3215,7 @@ RectTransform:
   m_LocalScale: {x: 0.637105, y: 0.637105, z: 0.637105}
   m_Children: []
   m_Father: {fileID: 1102934155}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -3665,6 +3664,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5725791, y: 1.5725791, z: 1.5725791}
   m_Children:
+  - {fileID: 1757763240}
+  - {fileID: 937090061}
   - {fileID: 954015343}
   - {fileID: 572200100}
   - {fileID: 84033627}
@@ -3673,11 +3674,11 @@ RectTransform:
   - {fileID: 890511546}
   - {fileID: 1538738293}
   m_Father: {fileID: 1733324851}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
+  m_AnchoredPosition: {x: 519, y: 0}
   m_SizeDelta: {x: 960, y: 540}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102934156
@@ -5177,7 +5178,7 @@ RectTransform:
   m_LocalScale: {x: 1.2405913, y: 0.48884514, z: 0.48884514}
   m_Children: []
   m_Father: {fileID: 1102934155}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5435,7 +5436,7 @@ RectTransform:
   m_LocalScale: {x: 1.3387, y: 1.3387, z: 1.3387}
   m_Children: []
   m_Father: {fileID: 1102934155}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6612,8 +6613,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1757763240}
-  - {fileID: 937090061}
   - {fileID: 1102934155}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -6653,7 +6652,7 @@ RectTransform:
   m_LocalScale: {x: 0.637105, y: 0.637105, z: 0.637105}
   m_Children: []
   m_Father: {fileID: 1102934155}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6729,15 +6728,15 @@ RectTransform:
   m_GameObject: {fileID: 1757763239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.63589805, y: 0.63589805, z: 0.63589805}
   m_Children: []
-  m_Father: {fileID: 1733324851}
+  m_Father: {fileID: 1102934155}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 320, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757763241
 MonoBehaviour:
