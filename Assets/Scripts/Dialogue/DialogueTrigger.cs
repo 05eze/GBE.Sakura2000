@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Dialogue dialogue;
+   // public KeyCode keyToPress;
+
+    public void TriggerDialogue()
     {
-        
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other) 
     {
+        Debug.Log("Press E to interact");
+        
+        //if(Input.GetKeyDown(KeyCode.E))
+        //{
+            //Debug.Log("E was pressed");
+            if(other.gameObject.tag == "Player") 
+            {
+                TriggerDialogue();
+            }
+        //}
         
     }
 }
