@@ -16,14 +16,10 @@ public class DialogueTrigger : MonoBehaviour
     {
         Debug.Log("Press E to interact");
         
-        //if(Input.GetKeyDown(KeyCode.E))
-        //{
-            //Debug.Log("E was pressed");
             if(other.gameObject.tag == "Player") 
             {
                 TriggerDialogue();
             }
-        //}
         
     }
 }

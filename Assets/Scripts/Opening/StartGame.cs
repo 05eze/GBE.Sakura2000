@@ -1,9 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class LoopingBackground : MonoBehaviour
+public class StartGame : MonoBehaviour
 {
+
+
+    
+    public void StartStory()
+    {
+        SceneManager.LoadScene("SCENE 1");
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {

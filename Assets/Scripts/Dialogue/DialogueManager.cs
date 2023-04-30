@@ -10,24 +10,23 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
     public Button continueButton;
-    private Queue<string> sentences;
 
-   
-    
+    private Queue<string> sentences;
 
     void Start()
     {
         sentences = new Queue<string>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
     public void StartDialogue (Dialogue dialogue)
     {
+        Cursor.lockState = CursorLockMode.None;
+        Debug.Log("Start of conversation with " + dialogue.name);
+
         animator.SetBool("isOpen", true);
 
-
-        Debug.Log("Start of conversation with " + dialogue.name);
-        
         //Name of NPC shown on dialogue box
         nameText.text = dialogue.name;
 
@@ -55,7 +54,7 @@ public class DialogueManager : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
         //Show text on dialogue box
-        dialogueText.text = sentence;
+        //dialogueText.text = sentence;
     }
 
     IEnumerator TypeSentence (string sentence)
@@ -66,12 +65,28 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return null;
         }
-      //  continueButton.interactable = true;
     }
 
     void EndDialogue()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         animator.SetBool("isOpen", false);
         Debug.Log("End of conversation");
+    }
+
+    void Update()
+    {
+        //Press the space bar to apply no locking to the Cursor
+        if (Input.GetKey(KeyCode.Alpha1))
+            Cursor.lockState = CursorLockMode.None;
+    }
+
+    void OnGUI()
+    {
+        //Press this button to lock the Cursor
+        if (Input.GetKey(KeyCode.Alpha2))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 }
