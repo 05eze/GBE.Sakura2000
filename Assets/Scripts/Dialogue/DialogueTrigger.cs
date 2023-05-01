@@ -14,7 +14,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        Debug.Log("Press E to interact");
+        
         
             if(other.gameObject.tag == "Player") 
             {
