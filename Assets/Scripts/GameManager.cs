@@ -41,6 +41,8 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
 
+		Cursor.lockState = CursorLockMode.Locked;
+
 		scoreText.text = " ";
 		totalNotes = FindObjectsOfType<NoteObject>().Length;
 		//Finding how many objects have the NoteObject Script attatched to them so we can predict how many (type)hits players get

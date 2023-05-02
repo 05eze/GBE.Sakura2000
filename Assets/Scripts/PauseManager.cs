@@ -46,6 +46,8 @@ public class PauseManager : MonoBehaviour
         {
             a.Pause();
         }
+
+        Cursor.lockState = CursorLockMode.None;
     }
     
     public void ResumeGame()
@@ -60,6 +62,8 @@ public class PauseManager : MonoBehaviour
         {
             a.Play();
         }
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void QuitGame()
