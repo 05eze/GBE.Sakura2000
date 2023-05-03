@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
 
     public Animator animator;
-    public Button continueButton;
+    //public Button continueButton;
 
     private Queue<string> sentences;
 
