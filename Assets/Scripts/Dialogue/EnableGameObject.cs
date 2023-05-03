@@ -22,4 +22,9 @@ public class EnableGameObject : MonoBehaviour
         gameObject3.gameObject.SetActive(true);
         gameObject4.gameObject.SetActive(true);
     }
+
+    public void Enable()
+    {
+        gameObject1.gameObject.SetActive(true);
+    }
 }
