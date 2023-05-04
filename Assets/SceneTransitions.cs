@@ -28,10 +28,10 @@ public class SceneTransitions : MonoBehaviour
         SceneManager.LoadScene("SCENE2-SCHOOL");
     }
 
-    /*(public void Scene3()
+    public void Scene1Bedroom()
     {
-        SceneManager.LoadScene("");
-    }*/
+        SceneManager.LoadScene("SCENE 1-BEDROOM");
+    }
 
     public void No()
     {
