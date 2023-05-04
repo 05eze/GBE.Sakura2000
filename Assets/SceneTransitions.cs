@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransitions : MonoBehaviour
 {
-
+    public GameObject gameOb;
 
 
     public void DefendTheCrown()
@@ -18,6 +18,11 @@ public class SceneTransitions : MonoBehaviour
         SceneManager.LoadScene("SCENE2");
     }
 
+    public void Scene2Minigame()
+    {
+        SceneManager.LoadScene("SCENE2-STREET");
+    }
+
     public void Scene2School()
     {
         SceneManager.LoadScene("SCENE2-SCHOOL");
@@ -27,6 +32,11 @@ public class SceneTransitions : MonoBehaviour
     {
         SceneManager.LoadScene("");
     }*/
+
+    public void No()
+    {
+        gameOb.gameObject.SetActive(false);
+    }
 
 
 
