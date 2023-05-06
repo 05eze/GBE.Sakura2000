@@ -47,6 +47,10 @@ public class SceneTransitions : MonoBehaviour
         }
     }
 
+    public void Scene2Cutscene()
+    {
+        SceneManager.LoadScene("SCENE 2 YOU WIN");
+    }
 
 
 

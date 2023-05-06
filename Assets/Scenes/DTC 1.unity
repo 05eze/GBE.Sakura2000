@@ -8097,6 +8097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678752198}
   - component: {fileID: 678752199}
+  - component: {fileID: 678752200}
   m_Layer: 5
   m_Name: Results
   m_TagString: Untagged
@@ -8151,6 +8152,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8b85efbe99032644838aa5519b1117e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &678752200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678752197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b703d5dd337916248b9bfb72e9176f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &720418733
@@ -8823,9 +8836,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1346716170}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ResultsWin
+      - m_Target: {fileID: 1346716175}
+        m_TargetAssemblyTypeName: SceneTransitions, Assembly-CSharp
+        m_MethodName: Scene2Cutscene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15067,6 +15080,8 @@ GameObject:
   - component: {fileID: 1346716170}
   - component: {fileID: 1346716172}
   - component: {fileID: 1346716173}
+  - component: {fileID: 1346716174}
+  - component: {fileID: 1346716175}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -15148,6 +15163,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b85efbe99032644838aa5519b1117e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1346716174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346716169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42a09a0486a132419ab63f427100423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!114 &1346716175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346716169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997382b36d800fd489aa2789cb6c2478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOb: {fileID: 0}
 --- !u!1 &1348679985
 GameObject:
   m_ObjectHideFlags: 0

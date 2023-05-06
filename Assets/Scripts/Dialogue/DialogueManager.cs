@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+//using RigidbodyConstraints2D;
 
 public class DialogueManager : MonoBehaviour
 {
+    public Rigidbody2D rigidbody;
+
     public Text nameText;
     public Text dialogueText;
 
@@ -13,15 +17,22 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
 
+
+
+    
     void Start()
     {
         sentences = new Queue<string>();
         Cursor.lockState = CursorLockMode.Locked;
+
+        
     }
 
 
     public void StartDialogue (Dialogue dialogue)
     {
+       // rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+
         Cursor.lockState = CursorLockMode.None;
         Debug.Log("Start of conversation with " + dialogue.name);
 
@@ -30,6 +41,7 @@ public class DialogueManager : MonoBehaviour
         //Name of NPC shown on dialogue box
         nameText.text = dialogue.name;
 
+        //Time.timeScale = 0f;
 
         //Clear any sentences that were shown before
         sentences.Clear();
@@ -72,6 +84,10 @@ public class DialogueManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         animator.SetBool("isOpen", false);
         Debug.Log("End of conversation");
+
+       // Time.timeScale = 1f;
+
+      //  rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
     }
 
     void Update()
