@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public Rigidbody2D rigidbody;
 
     public Text nameText;
+
     public Text dialogueText;
 
     public Animator animator;
@@ -17,15 +18,15 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
 
-
-
-    
     void Start()
     {
         sentences = new Queue<string>();
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;   
 
-        
+       /* if(Scene.name == "Classroom")
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }*/
     }
 
 
@@ -54,6 +55,7 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)
@@ -69,6 +71,7 @@ public class DialogueManager : MonoBehaviour
         //dialogueText.text = sentence;
     }
 
+
     IEnumerator TypeSentence (string sentence)
     {
         dialogueText.text = "";
@@ -78,6 +81,7 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
     }
+
 
     void EndDialogue()
     {
@@ -90,12 +94,14 @@ public class DialogueManager : MonoBehaviour
       //  rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
     }
 
+
     void Update()
     {
         //Press the space bar to apply no locking to the Cursor
         if (Input.GetKey(KeyCode.Alpha1))
             Cursor.lockState = CursorLockMode.None;
     }
+
 
     void OnGUI()
     {

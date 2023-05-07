@@ -21,14 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SCENE 2/SCENE2-STREET.unity
     guid: 2a45981242aee3d40b8bf13c60108b81
   - enabled: 1
+    path: Assets/Scenes/DTC 1.unity
+    guid: 48537e748cfcd9d4ca6eb1c024954ccc
+  - enabled: 1
     path: Assets/Scenes/SCENE 2/SCENE 2 YOU WIN.unity
     guid: 1c4eb83fab4873f4cb7d9e1a83000091
   - enabled: 1
     path: Assets/Scenes/SCENE 2/SCENE2-SCHOOL.unity
     guid: 8e7df955923f92545b55665c04026e9d
   - enabled: 1
-    path: Assets/Scenes/DTC 1.unity
-    guid: 48537e748cfcd9d4ca6eb1c024954ccc
+    path: Assets/Scenes/SCENE 2/Classroom.unity
+    guid: 79dac62e0dbe72f439ba69e11de9e2f6
   - enabled: 1
     path: Assets/Scenes/SCENE 2/STYD2.unity
     guid: 520cb9d9ed0680a4e961ecd8bb39a60f

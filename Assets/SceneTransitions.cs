@@ -51,6 +51,11 @@ public class SceneTransitions : MonoBehaviour
     {
         SceneManager.LoadScene("SCENE 2 YOU WIN");
     }
+    
+    public void Scene2Classroom()
+    {
+        SceneManager.LoadScene("Classroom");
+    }
 
 
 
