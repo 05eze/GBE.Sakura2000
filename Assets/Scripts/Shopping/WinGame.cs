@@ -26,6 +26,16 @@ public class WinGame : MonoBehaviour
             results.gameObject.SetActive(true);
             Time.timeScale = 0f;
         }
+        else
+        {
+            if(collision.gameObject.name == "Wrong Item Detect" && gameObject.tag == "Final Item")
+            {
+                Debug.Log("Game Over");
+                Destroy(gameObject);
+                results.gameObject.SetActive(true);
+                Time.timeScale = 0f;
+            }
+        }
     }
 
     

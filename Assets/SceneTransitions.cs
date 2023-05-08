@@ -13,6 +13,16 @@ public class SceneTransitions : MonoBehaviour
         SceneManager.LoadScene("DTC 1");
     }
 
+    public void ShopTillYouDrop()
+    {
+        SceneManager.LoadScene("STYD2");
+    }
+
+    public void Maze9()
+    {
+        SceneManager.LoadScene("MAZE4");
+    }
+
     public void Scene2()
     {
         SceneManager.LoadScene("SCENE2");
@@ -57,7 +67,32 @@ public class SceneTransitions : MonoBehaviour
         SceneManager.LoadScene("Classroom");
     }
 
+    public void Scene2Hallway()
+    {
+        SceneManager.LoadScene("Hallway");
+    }
 
+    public void Scene3()
+    {
+        SceneManager.LoadScene("SCENE 3 STREET");
+    } 
+    
+    
+    public void Scene3Supermarket()
+    {
+        SceneManager.LoadScene("SCENE 3 SUPERMARKET");
+    }
+
+    public void Scene3YouWin()
+    {
+        SceneManager.LoadScene("SCENE 3 YOU WIN");
+    }
+    
+    
+    public void Scene3PostSTYD()
+    {
+        SceneManager.LoadScene("SCENE 3 LEAVE");
+    }
 
     // Start is called before the first frame update
     void Start()

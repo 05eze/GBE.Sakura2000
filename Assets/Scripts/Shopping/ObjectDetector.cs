@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ObjectDetector : MonoBehaviour
 {
+
+    public Animator animator;
+
     Rigidbody body;
     public float maxSpeed = 1.0f;
 
@@ -31,19 +34,24 @@ public class ObjectDetector : MonoBehaviour
     //Deleting items through collision
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.name == "Shopping Cart")
+        
+
+        if (collision.gameObject.name == "Shopping Cart")
         {
             Destroy(gameObject);
             //In prog
             
             Debug.Log("Item Caught");
+            animator.SetBool("isOpen", false);
 
         } 
         else
-        if(collision.gameObject.name == "Wrong Item Detect ")
+        if(collision.gameObject.name == "Wrong Item Detect")
         {
             Destroy(gameObject);
             Debug.Log("Live Lost");
+
+            animator.SetBool("isHit", true);
 
             ShopGameManager.health -= 1;
             //heartOne.SetActive(false);
@@ -53,6 +61,7 @@ public class ObjectDetector : MonoBehaviour
         else
         if(collision.gameObject.name == "Shopping Cart" && gameObject.tag == "Final Item")
         {
+            animator.SetBool("isHit", true);
             Debug.Log("Game Over");
             Destroy(gameObject);
             results.gameObject.SetActive(true);
@@ -71,7 +80,7 @@ public class ObjectDetector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator.SetBool("isOpen", false);
     }
 
     // Update is called once per frame
