@@ -106,7 +106,7 @@ public class SceneTransitions : MonoBehaviour
     
     public void DarkHallway()
     {
-        SceneManager.LoadScene("Dark Hallway");
+        SceneManager.LoadScene("Dark Hall");
     }
 
     public void Scene4Classroom()
