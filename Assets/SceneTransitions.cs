@@ -94,6 +94,77 @@ public class SceneTransitions : MonoBehaviour
         SceneManager.LoadScene("SCENE 3 LEAVE");
     }
 
+    public void Scene4()
+    {
+        SceneManager.LoadScene("SCENE 4");
+    }
+
+    public void Scene4Hallway()
+    {
+        SceneManager.LoadScene("SCENE 4 - SCHOOL");
+    }
+    
+    public void DarkHallway()
+    {
+        SceneManager.LoadScene("Dark Hallway");
+    }
+
+    public void Scene4Classroom()
+    {
+        SceneManager.LoadScene("Classroom Day 2");
+    }
+
+    public void PostMaze4()
+    {
+        SceneManager.LoadScene("Post Maze 4");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
