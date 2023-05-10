@@ -119,6 +119,20 @@ public class SceneTransitions : MonoBehaviour
         SceneManager.LoadScene("Post Maze 4");
     }
 
+    public void LastScene()
+    {
+        SceneManager.LoadScene("TheLast");
+    }
+    
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+    /*public void MainMenu()
+    {
+        SceneManager.LoadSCene("Main Menu");
+    }*/
 
 
 
