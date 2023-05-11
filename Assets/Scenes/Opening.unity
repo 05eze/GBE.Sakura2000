@@ -761,10 +761,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e42a09a0486a132419ab63f427100423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rigidbody: {fileID: 0}
   nameText: {fileID: 1139146720}
   dialogueText: {fileID: 846589932}
   animator: {fileID: 338056617}
-  continueButton: {fileID: 1134083416}
 --- !u!4 &729689181
 Transform:
   m_ObjectHideFlags: 0
@@ -1929,7 +1929,11 @@ MonoBehaviour:
 
       I only came with you because I wanted to learn more about the
       fashion here.'
-    - "Tasha:\n I guess it looks like a cool country.\r\n"
+    - 'Tasha:
+
+      I guess it looks like a cool country.
+
+'
     - 'Mum:
 
       Okay, you like to say I guess a lot. '

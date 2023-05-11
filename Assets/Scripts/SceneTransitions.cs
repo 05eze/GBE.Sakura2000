@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransitions : MonoBehaviour
 {
-    public GameObject gameOb;
+    public GameObject continueScreen;
 
 
     public void DefendTheCrown()
@@ -45,7 +45,7 @@ public class SceneTransitions : MonoBehaviour
 
     public void No()
     {
-        gameOb.gameObject.SetActive(false);
+        continueScreen.gameObject.SetActive(false);
     }
 
 
@@ -85,6 +85,7 @@ public class SceneTransitions : MonoBehaviour
 
     public void Scene3YouWin()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("SCENE 3 YOU WIN");
     }
     
