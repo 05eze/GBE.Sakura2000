@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7015047-e59b-4d28-957e-a0db3959c3d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SceneTransitions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SceneTransitions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,74 +12,47 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/SceneTransitions.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="304">
+                    <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+                    <folding>
+                      <element signature="e#0#113#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/CharacterController.cs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="384">
+                    <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                    <folding>
+                      <element signature="e#0#78#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ButtonController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#78#0" expanded="true" />
-                <marker date="1679913180393" expanded="true" signature="125:664" ph="{...}" />
-                <marker date="1679913180393" expanded="true" signature="328:388" ph="{...}" />
-                <marker date="1679913180393" expanded="true" signature="446:662" ph="{...}" />
-                <marker date="1679913180393" expanded="true" signature="494:555" ph="{...}" />
-                <marker date="1679913180393" expanded="true" signature="596:656" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1713">
-              <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HealthSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NoteObject.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
-              <folding>
-                <element signature="e#0#78#0" expanded="true" />
-                <marker date="1681812644302" expanded="true" signature="119:1954" ph="{...}" />
-                <marker date="1681812644302" expanded="true" signature="1934:1946" ph="{...}" />
-                <marker date="1681812644302" expanded="true" signature="1934:1952" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BeatScroller.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#78#0" expanded="true" />
-                <marker date="1679999761015" expanded="true" signature="121:637" ph="{...}" />
-                <marker date="1679999761015" expanded="true" signature="252:301" ph="{...}" />
-                <marker date="1679999761015" expanded="true" signature="359:635" ph="{...}" />
-                <marker date="1679999761015" expanded="true" signature="389:512" ph="{...}" />
-                <marker date="1679999761015" expanded="true" signature="525:629" ph="{...}" />
-              </folding>
+            <state relative-caret-position="739">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -89,12 +63,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/HealthSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BeatScroller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NoteObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ButtonController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BeginMaze.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dialogue/DialogueTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SceneTransitions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,11 +76,12 @@
         <option value="$PROJECT_DIR$/BeatScroller.cs" />
         <option value="$PROJECT_DIR$/NoteObject.cs" />
         <option value="$PROJECT_DIR$/GameManager.cs" />
+        <option value="$PROJECT_DIR$/SceneTransitions.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1056" />
@@ -156,11 +130,12 @@
       <workItem from="1680001029481" duration="1722000" />
       <workItem from="1680003037539" duration="831000" />
       <workItem from="1681814567664" duration="1187000" />
+      <workItem from="1683797384890" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5510000" />
+    <option name="totallyTimeSpent" value="5759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -172,12 +147,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="976" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="976" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27183408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27729258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -192,6 +168,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -215,7 +192,38 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ButtonController.cs" />
+    <entry file="file://$PROJECT_DIR$/NoteObject.cs" />
+    <entry file="file://$PROJECT_DIR$/BeatScroller.cs" />
+    <entry file="file://$PROJECT_DIR$/HealthSystem.cs" />
     <entry file="file://$PROJECT_DIR$/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SceneTransitions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dialogue/DialogueTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -224,62 +232,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ButtonController.cs">
+    <entry file="file://$PROJECT_DIR$/BeginMaze.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state>
           <folding>
-            <element signature="e#0#78#0" expanded="true" />
-            <marker date="1679913180393" expanded="true" signature="125:664" ph="{...}" />
-            <marker date="1679913180393" expanded="true" signature="328:388" ph="{...}" />
-            <marker date="1679913180393" expanded="true" signature="446:662" ph="{...}" />
-            <marker date="1679913180393" expanded="true" signature="494:555" ph="{...}" />
-            <marker date="1679913180393" expanded="true" signature="596:656" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NoteObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-            <marker date="1681812644302" expanded="true" signature="119:1954" ph="{...}" />
-            <marker date="1681812644302" expanded="true" signature="1934:1946" ph="{...}" />
-            <marker date="1681812644302" expanded="true" signature="1934:1952" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeatScroller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-            <marker date="1679999761015" expanded="true" signature="121:637" ph="{...}" />
-            <marker date="1679999761015" expanded="true" signature="252:301" ph="{...}" />
-            <marker date="1679999761015" expanded="true" signature="359:635" ph="{...}" />
-            <marker date="1679999761015" expanded="true" signature="389:512" ph="{...}" />
-            <marker date="1679999761015" expanded="true" signature="525:629" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1713">
-          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HealthSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
+            <element signature="e#0#113#0" expanded="true" />
           </folding>
         </state>
       </provider>

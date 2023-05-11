@@ -91,6 +91,7 @@ public class SceneTransitions : MonoBehaviour
     
     public void Scene3PostSTYD()
     {
+		Time.timeScale = 1;
         SceneManager.LoadScene("SCENE 3 LEAVE");
     }
 
@@ -116,6 +117,7 @@ public class SceneTransitions : MonoBehaviour
 
     public void PostMaze4()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Post Maze 4");
     }
 
