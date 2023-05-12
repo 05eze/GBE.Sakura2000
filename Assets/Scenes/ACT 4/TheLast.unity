@@ -644,7 +644,7 @@ RectTransform:
   - {fileID: 303245134}
   - {fileID: 1356877532}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -945,7 +945,7 @@ RectTransform:
   m_LocalScale: {x: 1.0978211, y: 2.8285263, z: 2.8285263}
   m_Children: []
   m_Father: {fileID: 1659081190}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1175,7 +1175,7 @@ RectTransform:
   m_LocalScale: {x: 0.38547385, y: 0.38547385, z: 0.38547385}
   m_Children: []
   m_Father: {fileID: 1659081190}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1396,7 +1396,7 @@ RectTransform:
   m_Children:
   - {fileID: 1300526995}
   m_Father: {fileID: 1659081190}
-  m_RootOrder: 7
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1449,7 +1449,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1991776062}
         m_TargetAssemblyTypeName: SceneTransitions, Assembly-CSharp
-        m_MethodName: Scene3PostSTYD
+        m_MethodName: Credits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2400,7 +2400,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &990092228
 GameObject:
@@ -2668,7 +2668,7 @@ Transform:
   m_Children:
   - {fileID: 1399973057}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1277042686
 GameObject:
@@ -2700,7 +2700,7 @@ RectTransform:
   m_LocalScale: {x: 0.28954694, y: 0.28954694, z: 0.28954694}
   m_Children: []
   m_Father: {fileID: 1659081190}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3000,7 +3000,7 @@ MonoBehaviour:
       I don''t know.'
     - 'Tasha:
 
-      I just became mad and started hallucinating.'
+      I just became mad and started spiralling.'
     - 'Hana:
 
       I know what happened.'
@@ -3024,7 +3024,49 @@ MonoBehaviour:
       There wasn''t.'
     - 'Hana:
 
-      They just bullied you because you''re not'
+      They just bullied you because you''re not...'
+    - 'Tasha:
+
+      Japanese?'
+    - 'Security Guard:
+
+      That should not be an excuse.'
+    - 'Security Guard:
+
+      Just because she is not the same race as us,'
+    - 'Security Guard:
+
+      doesn''t mean us as Japanese citizens should not treat
+      her any different.'
+    - 'All pedestrians:
+
+      Yeah!'
+    - 'Hana:
+
+      I''m so sorry. You do not deserve to be treated in that way.'
+    - 'Chikako:
+
+      You never should deserve to be treated any differently. '
+    - 'Tasha:
+
+      It''s okay, I understand that there are loads of misconceptions
+      about other communities. '
+    - 'Tasha:
+
+      But I''m glad we''re on the same page!'
+    - 'Pedestrains:
+
+      We''re sorry!'
+    - 'Hana:
+
+      Please forgive us.'
+    - 'Security Guard:
+
+      We''re still learning!'
+    - "All:\n\u3054\u3081\u3093\u306A\u3055\u3044!!!\n(I'm sorry!!!)"
+    - 'Tasha:
+
+      It''s all good!'
 --- !u!61 &1399973059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3326,7 +3368,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1588229713
 GameObject:
@@ -3358,7 +3400,7 @@ RectTransform:
   m_LocalScale: {x: 0.2729656, y: 0.2729656, z: 0.2729656}
   m_Children: []
   m_Father: {fileID: 1659081190}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3583,12 +3625,12 @@ RectTransform:
   - {fileID: 1712831200}
   - {fileID: 2074333559}
   - {fileID: 599067208}
-  - {fileID: 608495865}
   - {fileID: 1854525762}
   - {fileID: 1277042687}
   - {fileID: 409997107}
   - {fileID: 487639601}
   - {fileID: 1588229714}
+  - {fileID: 608495865}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4137,7 +4179,7 @@ RectTransform:
   m_LocalScale: {x: 0.618586, y: 0.618586, z: 0.618586}
   m_Children: []
   m_Father: {fileID: 1659081190}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
