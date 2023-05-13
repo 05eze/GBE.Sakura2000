@@ -9,8 +9,10 @@ public class MazeCharController : MonoBehaviour
     public float moveSpeed;
     public Vector2 moveInput;
     public GameObject gameOver;
+    public Animator animator;
 
-    
+    Vector2 movement;
+
     public GameObject results;
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -45,5 +47,9 @@ public class MazeCharController : MonoBehaviour
         moveInput.Normalize();
 
         rb2d.velocity = moveInput * moveSpeed;
+
+        animator.SetFloat("Horizontal ", moveInput.x);
+        animator.SetFloat("Vertical", moveInput.y);
+        animator.SetFloat("Speed", moveInput.sqrMagnitude);
     }
 }

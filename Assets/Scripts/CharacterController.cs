@@ -7,7 +7,8 @@ public class CharacterController : MonoBehaviour
 
     public float maxSpeed;
     Rigidbody2D player;
-
+    public Animator animator;
+    Vector2 movement;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,12 @@ public class CharacterController : MonoBehaviour
     void Update()
     {
         float movementValueX = Input.GetAxis("Horizontal") * maxSpeed;
+        
         player.velocity = new Vector2(movementValueX, player.velocity.y);
+       
+        movement.x = Input.GetAxisRaw("Horizontal");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 }

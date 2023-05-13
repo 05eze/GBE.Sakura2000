@@ -132,10 +132,21 @@ public class SceneTransitions : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
-    /*public void MainMenu()
+    public void MainMenu()
     {
-        SceneManager.LoadSCene("Main Menu");
-    }*/
+        SceneManager.LoadScene("Main Menu");
+    }
+
+
+    public void BegignGame()
+    {
+        SceneManager.LoadScene("Opening");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 
 
 

@@ -1510,6 +1510,7 @@ MonoBehaviour:
   moveSpeed: 4
   moveInput: {x: 0, y: 0}
   gameOver: {fileID: 0}
+  animator: {fileID: 327388883}
   results: {fileID: 0}
 --- !u!61 &327388880
 BoxCollider2D:
@@ -1528,7 +1529,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.43, y: 0.44}
+    oldSize: {x: 0.49, y: 0.48}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
