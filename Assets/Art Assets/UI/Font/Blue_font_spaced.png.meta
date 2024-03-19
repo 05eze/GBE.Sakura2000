@@ -78,7 +78,7 @@ TextureImporter:
       213: -139612639319248395
     second: Blue_font_spaced_31
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,10 +95,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,6 +139,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -148,6 +152,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -160,6 +165,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -700,9 +745,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Blue_font_spaced_0: 2176913106170003590
+      Blue_font_spaced_1: 6897000772976250789
+      Blue_font_spaced_10: 6256334812460617205
+      Blue_font_spaced_12: -2861579898229625264
+      Blue_font_spaced_14: -7807940344070443139
+      Blue_font_spaced_15: -8007950255889016454
+      Blue_font_spaced_17: 6682668849111990998
+      Blue_font_spaced_18: 7057234793885408314
+      Blue_font_spaced_2: -4359937434039236006
+      Blue_font_spaced_20: 1106101762136845560
+      Blue_font_spaced_21: -3067447844811028406
+      Blue_font_spaced_22: -7800397478218290209
+      Blue_font_spaced_24: 5709170409864988616
+      Blue_font_spaced_25: 8142518426320279503
+      Blue_font_spaced_26: -6733165164389079959
+      Blue_font_spaced_27: -669929414293101928
+      Blue_font_spaced_28: -2930043364261107199
+      Blue_font_spaced_29: -4498379514196430715
+      Blue_font_spaced_3: 96289769437868758
+      Blue_font_spaced_30: -3141395528602629356
+      Blue_font_spaced_31: -139612639319248395
+      Blue_font_spaced_6: -8518776625871481548
+      Blue_font_spaced_7: -2586419667564250448
+      Blue_font_spaced_8: -38324618797827267
+      Blue_font_spaced_9: 7086829614176899536
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
